@@ -1,0 +1,23 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform crash logs
+crash.log
+
+# Ignore Terraform provider plugins
+.terraform/
+
+# Ignore SSH private keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Ignore Docker build artifacts
+*.tar
+*.log
+.dockerignore
+
+# Ignore environment files
+.env
