@@ -1,6 +1,6 @@
 provider "azurerm" {
   features {}
-  subscription_id = "5fc435e1-3abf-4626-acd0-d1120274a13c"
+  subscription_id = ""
 }
 
 resource "azurerm_resource_group" "docker_rg" {
